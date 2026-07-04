@@ -1,0 +1,2 @@
+source /home/wetdog/workspace/led_blink/build/bootloader/gdbinit/symbols
+source /home/wetdog/workspace/led_blink/build/bootloader/gdbinit/connect

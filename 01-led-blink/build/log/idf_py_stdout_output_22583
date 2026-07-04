@@ -1,0 +1,23 @@
+Command: /home/wetdog/.espressif/python_env/idf6.2_py3.14_env/bin/python -m esptool -p /dev/ttyACM0 -b 460800 --before default-reset --after hard-reset --chip esp32c6 erase-flash
+esptool v5.3.1
+Serial port /dev/ttyACM0:
+Connecting...
+[1A[2K[1A[2KConnected to ESP32-C6 on /dev/ttyACM0:
+Chip type:          ESP32-C6 (QFN40) (revision v0.2)
+Features:           Wi-Fi 6, BT 5 (LE), IEEE802.15.4, Single Core + LP Core, 160MHz, Unknown Embedded Flash
+Crystal frequency:  40MHz
+USB mode:           USB-Serial/JTAG
+MAC:                e8:f6:0a:ff:fe:fc:ef:98
+BASE MAC:           e8:f6:0a:fc:ef:98
+MAC_EXT:            ff:fe
+
+Uploading stub flasher...
+Running stub flasher...
+[1A[2K[1A[2KStub flasher running.
+Changing baud rate to 460800...
+Changed.
+
+Erasing flash memory (this may take a while)...
+[1A[2KFlash memory erased successfully in 1.1 seconds.
+
+Hard resetting via RTS pin...
